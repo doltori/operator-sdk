@@ -125,4 +125,4 @@ replace (
 	k8s.io/kubernetes => k8s.io/kubernetes v1.13.4
 )
 
-operator-sdk new app-operator --repo github.com/example-inc/app-operator
+replace git.apache.org/thrift.git => github.com/apache/thrift v0.12.0
