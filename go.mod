@@ -124,3 +124,5 @@ replace (
 	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20180711000925-0cf8f7e6ed1d
 	k8s.io/kubernetes => k8s.io/kubernetes v1.13.4
 )
+
+operator-sdk new app-operator --repo github.com/example-inc/app-operator
